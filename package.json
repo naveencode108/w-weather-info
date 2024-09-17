@@ -1,0 +1,23 @@
+{
+  "name": "w-weather-info",
+  "version": "1.0.0",
+  "description": "An npm package to fetch current weather data for any location",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "npm run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/naveencode108/w-weather-info.git"
+  },
+  "keywords": [
+    "npm"
+  ],
+  "author": "naveenbaloni",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/naveencode108/w-weather-info/issues"
+  },
+  "homepage": "https://github.com/naveencode108/w-weather-info#readme"
+}
