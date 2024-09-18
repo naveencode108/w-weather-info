@@ -10,14 +10,15 @@ To get started, install the package via npm:
 npm install w-weather-info
 ```
 
-'const { getWeather } = require('w-weather-info');'
+# import
+`const { getWeather } = require('w-weather-info');`
 
-
-'getWeather('city_name', 'api_key', (err, data) => {
-  if (data) {
-    console.log(data);  // Display weather data
-  } else {
-    console.log(err);   // Handle errors
-  }
-});'
+# code 
+`getWeather('city_name', 'api_key', (err, data) => {`
+  `if (data) {`
+`console.log(data);  // Display weather data`
+ ` } else {`
+ `   console.log(err);   // Handle errors`
+`  }`
+`});`
 
