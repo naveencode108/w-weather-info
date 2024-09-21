@@ -11,14 +11,10 @@ npm install w-weather-info
 ```
 
 ```bash
-const { getWeather } = require('w-weather-info');
+import {getWeather} from 'w-weather-info'
 
-getWeather('city_name', 'api_key', (err, data) => {
-  if (data) {
-console.log(data);  // Display weather data
-  } else {
-   console.log(err);   // Handle errors
-  }
-});
+let {data,error} = await getWeather ('city','api_key');
+console.log(data);
+
 ```
 

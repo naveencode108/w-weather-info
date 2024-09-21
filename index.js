@@ -1,12 +1,16 @@
-export async function getWeather(name,API_KEY,callback){
+export async function getWeather(name,API_KEY){
     try {
         let url=`http://api.openweathermap.org/data/2.5/weather?q=${name}&appid=${API_KEY}`;
         let data = await fetch(url)
         let response=await data.json();
-        callback(null,response);
-        
+        return {
+           data: await response,
+           error:false
+        }
     } catch (error) {
-         callback(error.message,null);
-         console.log(error.message);    
+         return {
+            data:false,
+            error:error.message
+         };
     }
 }
