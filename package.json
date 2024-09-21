@@ -1,6 +1,6 @@
 {
   "name": "w-weather-info",
-  "version": "1.0.2",
+  "version": "1.1.2",
   "description": "An npm package to fetch current weather data for any location",
   "main": "index.js",
   "type": "module",
